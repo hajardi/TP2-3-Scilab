@@ -17,11 +17,11 @@
 
     $ make all
     
-#Execution de notre programme:
+# Execution de notre programme:
  
     $ ./main_prog
 
-#Liste des fonctionnalités:
+# Liste des fonctionnalités:
  
     1. Informations de bases du processus
     2. L’état de la mémoire
