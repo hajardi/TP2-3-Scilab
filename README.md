@@ -32,7 +32,10 @@
     Les fonctionnalités de 1 à 4 affichent ce qui est attendu
     La fonctionnalité 0 execute le reste du main, dans le quelle il y'a une fonction backtrace pour remonter la pile
     Les fonctions relatives au BreakPoint ainsi que le gestionnaire du signal.
-    Le BreakPoint est fonctionnel sur certain OS mais pas le notre (Linux Mint), ceci est du à un decalage entre les adresses mémoires obtenues à l'aide
-    des commandes " objdump " et " readelf " et les adresses mapées se trouvant dans le dossier : " /proc/<PID>/maps " .
-    Malgré tout les efforts pour remedier à ce problème, notament, l'implémentation de la fonction " getTracedRAMAddress ",  nous n'avons pas réussi a remédier à ce problème.
-    Aillant rencontré des difficultés dans les BreakPoint, le BackTrace appelé " my_backtrace() " n'est pas toujours fonctionnel. 
+    Le BreakPoint est fonctionnel sur certain OS mais pas le notre (Linux Mint), ceci est du à un decalage entre 
+    les adresses mémoires obtenues à l'aide des commandes " objdump " et " readelf " et les adresses mapées se 
+    trouvant dans le dossier : " /proc/<PID>/maps " .
+    Malgré tout les efforts pour remedier à ce problème, notament, l'implémentation de la 
+    fonction " getTracedRAMAddress ",  nous n'avons pas réussi a remédier à ce problème.
+    Aillant rencontré des difficultés dans les BreakPoint, le BackTrace appelé " my_backtrace() " 
+    n'est pas toujours fonctionnel. 
