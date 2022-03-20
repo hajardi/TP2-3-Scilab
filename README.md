@@ -27,7 +27,7 @@
     2. L’état de la mémoire
     3. Les bibliothèques chargées
     4. les variables globales disponibles et la liste complète des fonctions disponibles
-    5. Pour lancer l'éxecution du programme (faire les breakPoint, Backtrace et gestionnaire des signaux)
+    0. Pour lancer l'éxecution du programme (faire les breakPoint, Backtrace et gestionnaire des signaux)
 
 ** Man page
 
