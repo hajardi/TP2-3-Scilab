@@ -5,7 +5,7 @@
 # Installation du projet
 
     
-    $ git clone https://github.com/aisetop/dtop.git
+    $ git clone https://github.com/anisus07/AISE_PROJECT_2022
     
 
 # Installation de la bibliothèque libunwind
