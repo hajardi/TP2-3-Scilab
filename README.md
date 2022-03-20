@@ -1,33 +1,31 @@
 
 # AISE-Projet
 
-Notre projet est un programme qui permet d'analyser un processus en cours d'exécution.
-* Installation
+    Notre projet est un programme qui permet d'analyser un processus en cours d'exécution.
+# Installation du projet
 
-# BEGIN_SRC bash
-$ git clone https://github.com/aisetop/dtop.git
-# END_SRC
+    # BEGIN_SRC bash
+    $ git clone https://github.com/aisetop/dtop.git
+    # END_SRC
 
 
-*** Installation de libenwind
+# Installation de la bibliothèque libunwind
 
-# BEGIN_SRC bash
-$ sudo apt-get update
-$ sudo apt-get install libunwind-dev
-# END_SRC
+    # BEGIN_SRC bash
+    $ sudo apt-get update
+    $ sudo apt-get install libunwind-dev
+    # END_SRC
 
 # Compilation
 
-# BEGIN_SRC bash
-$ make all
-# END_SRC
-
-* Usage 
+    # BEGIN_SRC bash
+    $ make all
+    # END_SRC
 
 #Execution de notre programme:
-# BEGIN_SRC bash
-$ ./main_prog
-# END_SRC
+    # BEGIN_SRC bash
+    $ ./main_prog
+    # END_SRC
 
 ** Man page
 
