@@ -5,7 +5,7 @@
 # Installation du projet
 
     
-    $ git clone https://github.com/anisus07/AISE_PROJECT_2022
+    $ git clone https://github.com/anisus07/AISE_PROJECT_2022.git
     
 
 # Installation de la bibliothèque libunwind
