@@ -1,35 +1,33 @@
-#+TITLE: Distributed Top Project
-#+AUTHOR: Sholde m4ssi
-#+DATE: 2021
+
 # AISE-Projet
 
 Notre projet est un programme qui permet d'analyser un processus en cours d'exécution.
 * Installation
 
-#+BEGIN_SRC bash
+# BEGIN_SRC bash
 $ git clone https://github.com/aisetop/dtop.git
-#+END_SRC
+# END_SRC
 
 
 *** Installation de libenwind
 
-#+BEGIN_SRC bash
+# BEGIN_SRC bash
 $ sudo apt-get update
 $ sudo apt-get install libunwind-dev
-#+END_SRC
+# END_SRC
 
-* Compilation
+# Compilation
 
-#+BEGIN_SRC bash
+# BEGIN_SRC bash
 $ make all
-#+END_SRC
+# END_SRC
 
 * Usage 
 
-In project directory:
-#+BEGIN_SRC bash
+#Execution de notre programme:
+# BEGIN_SRC bash
 $ ./main_prog
-#+END_SRC
+# END_SRC
 
 ** Man page
 
